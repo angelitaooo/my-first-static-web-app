@@ -17,7 +17,8 @@ export function CurrentTimeFromAPI() {
 
   return (
     <div className="pt-4">
-      The message from the API is: <strong>{apiResponse}</strong>
+      Adding more things -The message from the API is:{" "}
+      <strong>{apiResponse}</strong>
     </div>
   );
 }
